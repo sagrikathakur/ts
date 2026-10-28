@@ -1,9 +1,6 @@
-// type error//
-let age: number = 20;
-age = 'hello';
-console.log(age);
+// data types//
+let username: string = "shrinath";
+let city: string = "delhi";
+let message: string = `hello i am ${username}`
 
-// type coercison//
-let value: number = 90;
-console.log(value + 2);
-console.log("90" + 2)
+console.log(message)
